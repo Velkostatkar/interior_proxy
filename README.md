@@ -1,0 +1,40 @@
+# interior_proxy
+fix flickering players in MLOs
+
+Lost players, disappearing players, invisible players, disappearing in front of the eyes in the interior and in the MLO
+How to avoid and fix this loosing players in MLOs:
+Here I create a interior_proxy FILE what you can just start after edit, or also here is only open files to free pick and use for your needs. Anyway read —info inside and follow 
+
+
+
+-- is important that the interiorproxies.meta is existing only in one copy. Isnt possible to have on your server interiorproxies.meta 2x or more that mix them and they both dont work.
+-- Go to your maps and find for already existing interiorproxies.meta, 
+-- if exist use already existing interiorproxies.meta and put all your MLO names in there and forgot on my fxmanifes.lua file. Just use the existing one and just place a correct data from my.
+
+-- If not exist choose some map and in fxmanifest.lua of the map place data from my fxmanifes.lua
+-- or you can just start it like a new script.
+
+
+-- here you add all your MLOs you always looking for file with name _milo_ on the end. 
+-- If you dont have this file name, someone clever propably rename it, so you must start a lottery and place in here all your .ymap file you have from interior where your players disapearing.
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+<startFrom value="2000" />
+<filePathHash value="0" />
+<proxies>
+<Item>gabz_mrpd_milo_</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+<Item>NEXT_ONE_CHANGEHERE_OR_DELETE_THIS_LINE</Item>
+</proxies>
+</SInteriorOrderData>
